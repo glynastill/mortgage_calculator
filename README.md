@@ -18,7 +18,7 @@ but can be used to estimate tracker types too.
 * interest_rate *-i*		The rate in percent of the initial mortgage deal
 * interest_rate_term *-it*	The term for the initial interest rate
 * term *-t*			The total term of the mortgage (defaults to 25 years)
-* interest_rate_increase *-ii*	A yearly increace for the interest rate outside of the initial fixed term
+* interest_rate_increase *-ii*	A yearly increase for the interest rate outside of the initial fixed term
 * cap_rate_increase *-ic*		Cap the yearly interest increase at a particular value
 * monthly_overpayment *-o*	The value of any regular monthly overpayments you intend to make
 * monthly_payment *-p*		An amount you decide you want to pay off each month (calculated from mortgage value, rate and term otherwise)
