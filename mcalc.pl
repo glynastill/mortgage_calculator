@@ -95,7 +95,7 @@ do_it: {
 
 		for ($month = 1; $month <= 12; $month++) {		
 			$month_value = $month_value+($month_value*$monthly_interest)-($monthly_payment+$monthly_overpayment);
-			$total_paid = $total_paid + $monthly_payment;
+			$total_paid = $total_paid + $monthly_payment + $monthly_overpayment;
 			$interest_accrued = $interest_accrued + ($month_value*$monthly_interest);
 			if (($month == 12) || ($month_value <= 0)){
 				print "End of year ", pack("A5",$year);
